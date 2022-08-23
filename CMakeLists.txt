@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(hello_world)
+project(pointers)
 
 add_subdirectory(lib)
 

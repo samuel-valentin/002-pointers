@@ -18,9 +18,5 @@ void redirect_all_std(void)
   cr_redirect_stderr();
 }
 
-TestSuite(pointers, .init = redirect_all_std);
-
-Test(pointers, test_name)
-{
-
-}
+// TestSuite(pointers, .init = redirect_all_std);
+// no tests for this assignment yet.

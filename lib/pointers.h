@@ -7,9 +7,9 @@
 
 #include <stdio.h>
 
-int bubble_sort(int *target, int count);
-void insertion_sort(int *target, int count);
-void reverse(int *target, int count);
-int calulate_frequency(int *target, int count, int number);
+int bubble_sort(int *collection, int count);
+void insertion_sort(int *collection, int count);
+void reverse(int *collection, int count);
+int calulate_frequency(int *collection, int count, int target);
 
 #endif //POINTERS_H
